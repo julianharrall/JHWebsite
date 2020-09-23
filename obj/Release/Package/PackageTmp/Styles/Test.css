@@ -1,0 +1,87 @@
+﻿body, html {
+    margin: 0px;
+    padding: 0px;   
+    background: url('/images/Computer-Technology-HD-Wallpaper.jpg');
+    background-size: cover;
+    /*background-size: 100%;*/
+    background-repeat: no-repeat;   
+    opacity: 1;
+    transition: 20s opacity;
+}
+
+/*html{
+background-color: red;
+}*/
+
+.Container {
+    width: 90%;
+    /*height: 90%;*/
+    min-width: 500px;
+    margin: 0 auto;
+    padding-top: 5%;
+    /*!!!!!!This actually fades in as expected with background colour#########*/
+    /* background-color: red;
+    */
+   
+     /*opacity: 1;
+    transition: 20s opacity;*/
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+/*.Navigation {
+    opacity: 0;
+    transition: none;
+}*/
+
+/*#div_id_name {
+    display: none;
+    opacity: 0;
+    transition: none;
+    
+}*/
+
+
+/*#NavigationId {
+    opacity: 0;
+    transition: none;
+}*/
+
+
+.content {
+    width: 1150px;
+    height: 690px;
+    margin: 0 auto;
+    padding-left: 1%;
+    /*background-color: red;*/
+    /*opacity: 1;
+    transition: 20s opacity;*/
+}
+
+
+
+
+/*.MenuClass {
+    opacity: 0;
+    transition: none;
+}*/
+
+div.fade-out-MenuClass {
+    opacity: 0;
+    transition: none;
+}
+
+div.fade-out-Titlediv {
+    opacity: 0;
+    transition: none;
+}
+
+
+
+ div {
+    opacity: 1;
+    transition: 20s opacity;
+}

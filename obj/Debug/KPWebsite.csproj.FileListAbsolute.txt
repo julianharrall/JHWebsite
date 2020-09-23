@@ -1,0 +1,6 @@
+C:\Users\Jules\Documents\Visual Studio 2017\Projects\C#\KPWebsite\KPWebsite\bin\KPWebsite.dll.config
+C:\Users\Jules\Documents\Visual Studio 2017\Projects\C#\KPWebsite\KPWebsite\bin\KPWebsite.dll
+C:\Users\Jules\Documents\Visual Studio 2017\Projects\C#\KPWebsite\KPWebsite\bin\KPWebsite.pdb
+C:\Users\Jules\Documents\Visual Studio 2017\Projects\C#\KPWebsite\KPWebsite\obj\Debug\KPWebsite.dll
+C:\Users\Jules\Documents\Visual Studio 2017\Projects\C#\KPWebsite\KPWebsite\obj\Debug\KPWebsite.pdb
+C:\Users\Jules\Documents\Visual Studio 2017\Projects\C#\KPWebsite\KPWebsite\obj\Debug\KPWebsite.csprojResolveAssemblyReference.cache

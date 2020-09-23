@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_NewBackgroundProfile>False</_NewBackgroundProfile>
+    <_PublishTargetUrl>C:\Users\julia\Desktop\Publish_New</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AboutMe.aspx">
+      <publishTime>05/19/2018 15:03:36</publishTime>
+    </File>
+    <File Include="bin/KPWebsite.dll">
+      <publishTime>10/14/2018 10:39:20</publishTime>
+    </File>
+    <File Include="bin/KPWebsite.pdb">
+      <publishTime>10/14/2018 10:39:20</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="dot.gif">
+      <publishTime>12/20/2014 10:41:22</publishTime>
+    </File>
+    <File Include="images/01.jpg">
+      <publishTime>10/12/2017 06:57:19</publishTime>
+    </File>
+    <File Include="images/02.jpg">
+      <publishTime>10/12/2017 06:57:19</publishTime>
+    </File>
+    <File Include="images/03.jpg">
+      <publishTime>10/12/2017 06:57:19</publishTime>
+    </File>
+    <File Include="images/04.jpg">
+      <publishTime>10/12/2017 06:57:29</publishTime>
+    </File>
+    <File Include="images/8-Brick-Wall-Textures.jpg">
+      <publishTime>11/14/2017 15:55:47</publishTime>
+    </File>
+    <File Include="images/access.gif">
+      <publishTime>05/11/2018 06:11:47</publishTime>
+    </File>
+    <File Include="images/access.JPG">
+      <publishTime>11/04/2017 11:48:35</publishTime>
+    </File>
+    <File Include="images/access.PNG">
+      <publishTime>12/20/2017 07:44:55</publishTime>
+    </File>
+    <File Include="images/access2.PNG">
+      <publishTime>12/20/2017 07:55:22</publishTime>
+    </File>
+    <File Include="images/AccessHQ.jpg">
+      <publishTime>11/05/2017 08:25:03</publishTime>
+    </File>
+    <File Include="images/after.png">
+      <publishTime>07/22/2017 08:29:53</publishTime>
+    </File>
+    <File Include="images/arrow.png">
+      <publishTime>02/07/2015 07:33:37</publishTime>
+    </File>
+    <File Include="images/before.png">
+      <publishTime>07/22/2017 08:29:53</publishTime>
+    </File>
+    <File Include="images/bg_out.png">
+      <publishTime>07/22/2017 08:29:53</publishTime>
+    </File>
+    <File Include="images/blackboard.jpg">
+      <publishTime>11/15/2017 05:42:25</publishTime>
+    </File>
+    <File Include="images/blackboard2.jpg">
+      <publishTime>11/15/2017 05:42:25</publishTime>
+    </File>
+    <File Include="images/blackboard3.jpg">
+      <publishTime>11/15/2017 05:42:25</publishTime>
+    </File>
+    <File Include="images/Computer-Technology-HD-Wallpaper.jpg">
+      <publishTime>03/26/2018 06:19:52</publishTime>
+    </File>
+    <File Include="images/contact-me.jpg">
+      <publishTime>08/12/2015 06:09:21</publishTime>
+    </File>
+    <File Include="images/contactme.jpg">
+      <publishTime>08/08/2015 08:21:31</publishTime>
+    </File>
+    <File Include="images/contactme3.jpg">
+      <publishTime>08/08/2015 08:51:54</publishTime>
+    </File>
+    <File Include="images/curr.jpg">
+      <publishTime>12/25/2013 11:04:16</publishTime>
+    </File>
+    <File Include="images/DMU.jpg">
+      <publishTime>10/10/2014 15:05:44</publishTime>
+    </File>
+    <File Include="images/dmu.png">
+      <publishTime>11/06/2017 05:53:53</publishTime>
+    </File>
+    <File Include="images/dmu2.png">
+      <publishTime>11/06/2017 05:54:07</publishTime>
+    </File>
+    <File Include="images/DMUCopy.jpg">
+      <publishTime>11/14/2017 06:56:57</publishTime>
+    </File>
+    <File Include="images/DMU_Welcome.jpg">
+      <publishTime>11/06/2017 06:25:00</publishTime>
+    </File>
+    <File Include="images/dot.gif">
+      <publishTime>12/11/2014 06:10:18</publishTime>
+    </File>
+    <File Include="images/email7.gif">
+      <publishTime>05/08/2018 06:30:03</publishTime>
+    </File>
+    <File Include="images/glossyBack.png">
+      <publishTime>02/07/2015 07:33:37</publishTime>
+    </File>
+    <File Include="images/glossyBack2.png">
+      <publishTime>02/07/2015 07:33:37</publishTime>
+    </File>
+    <File Include="images/launch.gif">
+      <publishTime>01/10/2016 12:13:45</publishTime>
+    </File>
+    <File Include="images/LEICESTERSHIRE-POLICE-LOGO.png">
+      <publishTime>02/02/2018 06:00:28</publishTime>
+    </File>
+    <File Include="images/leicester_college.jpg">
+      <publishTime>08/06/2015 06:13:00</publishTime>
+    </File>
+    <File Include="images/LEICPOLICE.png">
+      <publishTime>11/05/2017 09:06:55</publishTime>
+    </File>
+    <File Include="images/LeicPoliceHQ2.jpg">
+      <publishTime>10/30/2014 20:56:24</publishTime>
+    </File>
+    <File Include="images/LeicPoliceHQ3.jpg">
+      <publishTime>11/04/2017 11:52:26</publishTime>
+    </File>
+    <File Include="images/letter_bg.png">
+      <publishTime>07/22/2017 08:29:53</publishTime>
+    </File>
+    <File Include="images/linkdin.png">
+      <publishTime>11/15/2017 05:59:51</publishTime>
+    </File>
+    <File Include="images/littlepluses.png">
+      <publishTime>12/11/2015 05:46:16</publishTime>
+    </File>
+    <File Include="images/loughboroug2.JPG">
+      <publishTime>10/29/2014 20:58:06</publishTime>
+    </File>
+    <File Include="images/loughborough.JPG">
+      <publishTime>10/27/2014 21:03:42</publishTime>
+    </File>
+    <File Include="images/loughTech.jpg">
+      <publishTime>10/10/2014 14:51:30</publishTime>
+    </File>
+    <File Include="images/LPHQ.jpg">
+      <publishTime>11/05/2017 09:17:03</publishTime>
+    </File>
+    <File Include="images/next.jpg">
+      <publishTime>07/11/2015 07:54:39</publishTime>
+    </File>
+    <File Include="images/next2.jpg">
+      <publishTime>10/30/2014 20:52:18</publishTime>
+    </File>
+    <File Include="images/NextHeadOffice.jpg">
+      <publishTime>10/10/2014 15:37:55</publishTime>
+    </File>
+    <File Include="images/Norcat.jpg">
+      <publishTime>10/10/2014 14:51:30</publishTime>
+    </File>
+    <File Include="images/pie.JPG">
+      <publishTime>11/25/2015 19:59:27</publishTime>
+    </File>
+    <File Include="images/Police-Logo.jpg">
+      <publishTime>11/05/2017 09:01:48</publishTime>
+    </File>
+    <File Include="images/Police.jpg">
+      <publishTime>11/04/2017 12:11:00</publishTime>
+    </File>
+    <File Include="images/POliceHQ.jpg">
+      <publishTime>11/05/2017 08:48:58</publishTime>
+    </File>
+    <File Include="images/retinawood.png">
+      <publishTime>12/11/2015 05:46:16</publishTime>
+    </File>
+    <File Include="images/rsc.JPG">
+      <publishTime>10/31/2014 11:07:55</publishTime>
+    </File>
+    <File Include="images/running.gif">
+      <publishTime>05/10/2018 06:02:26</publishTime>
+    </File>
+    <File Include="images/running3.gif">
+      <publishTime>05/10/2018 06:03:39</publishTime>
+    </File>
+    <File Include="images/Sent-successfully.jpg">
+      <publishTime>09/13/2015 10:19:30</publishTime>
+    </File>
+    <File Include="images/skills.JPG">
+      <publishTime>11/22/2015 07:56:46</publishTime>
+    </File>
+    <File Include="images/sprite.png">
+      <publishTime>10/12/2017 06:57:42</publishTime>
+    </File>
+    <File Include="images/star.png">
+      <publishTime>12/09/2017 07:06:57</publishTime>
+    </File>
+    <File Include="images/Stirling.JPG">
+      <publishTime>11/04/2017 12:12:57</publishTime>
+    </File>
+    <File Include="images/StirlingHQ.jpg">
+      <publishTime>11/05/2017 08:08:49</publishTime>
+    </File>
+    <File Include="images/thankshumbs.gif">
+      <publishTime>05/11/2018 05:50:53</publishTime>
+    </File>
+    <File Include="images/thankshumbs.jpg">
+      <publishTime>05/11/2018 05:40:55</publishTime>
+    </File>
+    <File Include="images/thankshumbs2.gif">
+      <publishTime>05/19/2018 16:40:01</publishTime>
+    </File>
+    <File Include="images/thankshumbs2.jpg">
+      <publishTime>04/03/2018 05:56:37</publishTime>
+    </File>
+    <File Include="images/thankshumbs3.jpg">
+      <publishTime>05/08/2018 06:16:14</publishTime>
+    </File>
+    <File Include="images/thankshumbs5.jpg">
+      <publishTime>05/08/2018 06:20:52</publishTime>
+    </File>
+    <File Include="images/thankyou.gif">
+      <publishTime>05/10/2018 06:23:00</publishTime>
+    </File>
+    <File Include="images/The_College_of_West_Anglia_Logo.jpg">
+      <publishTime>10/27/2014 20:50:52</publishTime>
+    </File>
+    <File Include="images/whitetiles.png">
+      <publishTime>12/11/2015 05:46:16</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>10/14/2018 08:07:14</publishTime>
+    </File>
+    <File Include="leaf.png">
+      <publishTime>12/10/2017 07:58:09</publishTime>
+    </File>
+    <File Include="Mail/Confirmed.php">
+      <publishTime>02/10/2018 14:08:55</publishTime>
+    </File>
+    <File Include="Mail/phpmail.php">
+      <publishTime>02/13/2018 05:37:19</publishTime>
+    </File>
+    <File Include="Mail/testmailer.html">
+      <publishTime>02/10/2018 08:22:27</publishTime>
+    </File>
+    <File Include="Menu/Education/DeMontUni.aspx">
+      <publishTime>10/14/2018 08:56:29</publishTime>
+    </File>
+    <File Include="Menu/Education/LoughTech.aspx">
+      <publishTime>10/14/2018 08:56:29</publishTime>
+    </File>
+    <File Include="Menu/Education/NorfolkTech.aspx">
+      <publishTime>10/14/2018 08:56:29</publishTime>
+    </File>
+    <File Include="Menu/Miscelaneous/Confirmation.aspx">
+      <publishTime>05/19/2018 16:59:07</publishTime>
+    </File>
+    <File Include="Menu/Miscelaneous/Confirming.aspx">
+      <publishTime>05/19/2018 16:52:07</publishTime>
+    </File>
+    <File Include="Menu/Miscelaneous/ContactNewForm.aspx">
+      <publishTime>08/24/2018 06:28:05</publishTime>
+    </File>
+    <File Include="Menu/Miscelaneous/MailError.aspx">
+      <publishTime>10/14/2018 09:18:44</publishTime>
+    </File>
+    <File Include="Menu/Miscelaneous/Test.aspx">
+      <publishTime>05/19/2018 16:53:32</publishTime>
+    </File>
+    <File Include="Menu/Summary/VerticalMenu.aspx">
+      <publishTime>05/07/2018 10:03:07</publishTime>
+    </File>
+    <File Include="Menu/WorkHistory/AccessFactMast.aspx">
+      <publishTime>05/11/2018 06:12:58</publishTime>
+    </File>
+    <File Include="Menu/WorkHistory/LeicsPolice.aspx">
+      <publishTime>05/07/2018 11:03:17</publishTime>
+    </File>
+    <File Include="Menu/WorkHistory/NextPlc.aspx">
+      <publishTime>05/07/2018 11:02:01</publishTime>
+    </File>
+    <File Include="Menu/WorkHistory/StirlingSolns.aspx">
+      <publishTime>05/07/2018 11:03:10</publishTime>
+    </File>
+    <File Include="Script/Contact.css">
+      <publishTime>03/04/2018 05:58:07</publishTime>
+    </File>
+    <File Include="Script/cssverticalmenu.js">
+      <publishTime>01/25/2017 06:04:44</publishTime>
+    </File>
+    <File Include="Script/Draggable.js">
+      <publishTime>04/14/2018 06:40:06</publishTime>
+    </File>
+    <File Include="Script/Google.js">
+      <publishTime>11/04/2014 21:00:46</publishTime>
+    </File>
+    <File Include="Script/Graph.js">
+      <publishTime>11/06/2014 05:58:49</publishTime>
+    </File>
+    <File Include="Script/Graphkp.js">
+      <publishTime>05/22/2018 06:23:23</publishTime>
+    </File>
+    <File Include="Script/jschart.js">
+      <publishTime>01/30/2015 06:10:19</publishTime>
+    </File>
+    <File Include="Script/Menu.js">
+      <publishTime>01/11/2014 12:14:04</publishTime>
+    </File>
+    <File Include="Script/Menukp.js">
+      <publishTime>05/22/2018 06:23:23</publishTime>
+    </File>
+    <File Include="Script/RightClickDisable.js">
+      <publishTime>05/07/2018 06:27:31</publishTime>
+    </File>
+    <File Include="Script/snow.js">
+      <publishTime>12/11/2017 05:43:29</publishTime>
+    </File>
+    <File Include="Script/switchcolors.js">
+      <publishTime>05/06/2018 08:16:25</publishTime>
+    </File>
+    <File Include="snow.gif">
+      <publishTime>12/10/2017 07:36:59</publishTime>
+    </File>
+    <File Include="star.png">
+      <publishTime>12/10/2017 18:42:01</publishTime>
+    </File>
+    <File Include="star1.png">
+      <publishTime>12/09/2017 07:26:06</publishTime>
+    </File>
+    <File Include="Styles/AboutMe.css">
+      <publishTime>05/19/2018 15:22:59</publishTime>
+    </File>
+    <File Include="Styles/Contact.css">
+      <publishTime>04/03/2018 05:58:07</publishTime>
+    </File>
+    <File Include="Styles/cssverticalmenu.css">
+      <publishTime>04/21/2018 07:44:23</publishTime>
+    </File>
+    <File Include="Styles/Curriculum.css">
+      <publishTime>12/28/2013 18:50:47</publishTime>
+    </File>
+    <File Include="Styles/Draggable.css">
+      <publishTime>05/07/2018 07:08:30</publishTime>
+    </File>
+    <File Include="Styles/GraphImageStyle.css">
+      <publishTime>12/04/2017 16:25:00</publishTime>
+    </File>
+    <File Include="Styles/Main.css">
+      <publishTime>05/19/2018 15:26:37</publishTime>
+    </File>
+    <File Include="Styles/Test.css">
+      <publishTime>05/18/2018 06:09:47</publishTime>
+    </File>
+    <File Include="Styles/Work.css">
+      <publishTime>05/07/2018 10:46:36</publishTime>
+    </File>
+    <File Include="TempImages/temp.txt">
+      <publishTime>02/05/2018 06:03:35</publishTime>
+    </File>
+    <File Include="Test.aspx">
+      <publishTime>05/19/2018 16:58:12</publishTime>
+    </File>
+    <File Include="TextFile1.txt">
+      <publishTime>10/15/2017 08:52:49</publishTime>
+    </File>
+    <File Include="VerticalOriginal.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="VerticalV1.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/06/2018 15:20:18</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

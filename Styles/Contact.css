@@ -1,0 +1,160 @@
+﻿
+.validator {
+    position: absolute;
+    left: 290px;
+    top: 100px;
+    color: black;
+    /*border:0px ridge blue;*/
+    border: ridge 3px #28689F;
+    float: left;
+}
+
+
+
+.textblock {
+    position: absolute;
+    left: 90px;
+    top: 80px;
+    color: black;
+    /*border:0px ridge blue;*/
+    border: ridge 0px #28689F;
+    background-color: white;
+    height: 0px;
+    width: 400px;
+    clear: both;
+    float: left;
+}
+
+/*html { 
+   background-image:url('/images/Envelope.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+/*http://css-tricks.com/perfect-full-page-background-image*/
+
+.container #txtSubject {
+    background-color: transparent;
+}
+
+.container #txtMessage {
+    background-color: transparent;
+}
+
+.container #txtName {
+    background-color: transparent;
+}
+
+
+.container #txtMail {
+    background-color: transparent;
+}
+
+
+.container #btnSubmit {
+    background-color: transparent;
+}
+
+
+/*#ConfirmationSummParagraph
+    {
+        font-size:16px;
+        font-style:"font-family: verdana";   
+        vertical-align: middle;
+        position: absolute;        
+        padding: 20px 20px;
+    top: 49px;
+    left: 46px;
+    height: 205px;
+    width: 338px;
+}
+*/
+
+#contactHeader {
+    color: white;
+    /*border-bottom:2px inset #F1F1F1; */
+    /*border:ridge 3px #28689F;*/
+    /*BORDER-RIGHT: 4px ridge #28689F;
+    BORDER-LEFT: 4px ridge #28689F;
+    BORDER-TOP: 4px ridge #28689F;*/
+    BORDER-BOTTOM: 4px ridge #28689F;
+    height: 22px;
+    width: 802px;
+    background: linear-gradient(#A2A3A6,#707177);
+}
+
+#ContactForm {
+    position: absolute;
+    top: 81px;
+    left: 78px;
+    color: black;
+    /*border:2px inset #F1F1F1; */
+    border: ridge 4px #28689F;
+    background: url('/images/contactme3.jpg') no-repeat 625px 40px;
+    background-size: 150px 150px;
+    /*background: linear-gradient(#A2A3A6,#707177);*/
+    height: 400px;
+    width: 800px;
+    clear: none;
+}
+
+#LaunchImage {
+    position: absolute;
+    /*top: 80px;
+    left: 200px;*/
+    color: black;
+    /*border:2px inset #F1F1F1;   */
+    /*background:  url(../images/contactme3.jpg),url(../images/launch.gif);
+    background-repeat: no-repeat,  no-repeat;
+    background-position: 625px 40px, 525px 240px;  */
+    background: url(/images/launch.gif);
+    background-repeat: no-repeat;
+    /*background-position: 525px 20px;      */
+    clip: rect(0px,60px,200px,0px);
+    height: 400px;
+    width: 800px;
+    clear: none;
+}
+
+
+
+#ContactingForm /*Location*/ {
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    /*width: 350px;
+    height: 330px;
+    border: 2px inset #F1F1F1;   
+    border-left-style: inset;   */
+}
+
+
+#ConfirmingForm {
+    color: white;
+    /*border:0px #F1F1F1;*/
+    background: url(/images/running.gif);
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-position: 0px 20px;
+    height: 500px;
+    width: 540px;
+    clear: none;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+
+#ConfirmationSummary /*Introduction*/ {
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    width: 300px;
+    height: 450px;
+    /*border: 2px solid white; */
+    /*border:ridge 4px #28689F;*/
+    background: url(/images/thankshumbs2.jpg);
+    background-position: center;
+}

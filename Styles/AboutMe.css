@@ -1,0 +1,52 @@
+﻿body, html {
+    /*background: url('/images/Computer-Technology-HD-Wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    /*opacity: 0;
+    transition: none;*/
+    opacity: 1;
+    transition: 20s opacity;
+  
+}
+
+
+    body.fade-outAM {
+        /*opacity: 0;
+        transition: none;*/
+        /*display: none;*/
+        opacity: 0;
+        transition: none;
+    }
+
+
+#PersonalSummary /*Location*/ {
+    position: relative;
+    top: 40px;
+    left: 470px; /*My Location ditsnace from left*/
+    width: 420px;
+    height: 330px;
+    border: ridge 3px #908579;
+    border-left-style: inset;
+}
+
+/*About Me - My Location*/
+#PersonalSumm {
+    font-size: 18px;
+    font-style: "font-family: verdana";
+    vertical-align: middle;
+    left: 0px;
+    width: 420px;
+    height: 20px;
+    background: linear-gradient(#A2A3A6,#707177);
+    color: white;
+    border-bottom: ridge 3px #908579;
+}
+
+#LeicesterMap {
+    display: block;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 275px;
+    width: 390px;
+}

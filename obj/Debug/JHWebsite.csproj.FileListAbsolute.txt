@@ -1,0 +1,13 @@
+C:\Users\Jules\Documents\Visual Studio 2017\Projects\C#\JHWebsite\JHWEbsite\bin\KPWebsite.dll.config
+C:\Users\Jules\Documents\Visual Studio 2017\Projects\C#\JHWebsite\JHWEbsite\bin\KPWebsite.dll
+C:\Users\Jules\Documents\Visual Studio 2017\Projects\C#\JHWebsite\JHWEbsite\bin\KPWebsite.pdb
+C:\Users\Jules\Documents\Visual Studio 2017\Projects\C#\JHWebsite\JHWEbsite\obj\Debug\JHWebsite.csprojResolveAssemblyReference.cache
+C:\Users\Jules\Documents\Visual Studio 2017\Projects\C#\JHWebsite\JHWEbsite\obj\Debug\KPWebsite.dll
+C:\Users\Jules\Documents\Visual Studio 2017\Projects\C#\JHWebsite\JHWEbsite\obj\Debug\KPWebsite.pdb
+C:\Program Files (x86)\VisualStudio\Projects\C#\JHWebsite\JHWEbsite\bin\KPWebsite.dll.config
+C:\Program Files (x86)\VisualStudio\Projects\C#\JHWebsite\JHWEbsite\bin\KPWebsite.dll
+C:\Program Files (x86)\VisualStudio\Projects\C#\JHWebsite\JHWEbsite\bin\KPWebsite.pdb
+C:\Program Files (x86)\VisualStudio\Projects\C#\JHWebsite\JHWEbsite\obj\Debug\JHWebsite.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\VisualStudio\Projects\C#\JHWebsite\JHWEbsite\obj\Debug\KPWebsite.dll
+C:\Program Files (x86)\VisualStudio\Projects\C#\JHWebsite\JHWEbsite\obj\Debug\KPWebsite.pdb
+C:\Program Files (x86)\VisualStudio\Projects\C#\JHWebsite\JHWEbsite\obj\Debug\JHWebsite.csprojAssemblyReference.cache

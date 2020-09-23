@@ -1,0 +1,70 @@
+﻿<%-- <asp:Image ID="Image4" runat="server" ImageUrl="~/images/Ukingdom-1.gif" Height="39px"/> --%>     
+
+http://www.javascriptfreecode.com/index.htm
+
+http://css-tricks.com/crop-top/
+
+
+Crop Top
+
+
+The following is a guest post by Parker Bennett where he explores some different ways to approach the behavior of fluid and responsive images.
+
+Sometimes you want an image to resize responsively but restrict its height — cropping it then as it widens. 
+Here, we explore three options with various trade-offs.
+
+Option One: background-image
+
+Edit on CodePen
+
+Here, in place of an <img>, we create a div with a background-image and use CSS3's dandy new background-size: cover to have it size proportionally. 
+As a bonus, we can easily crop from the top, center, or bottom using background-position.
+
+One potential issue is we need to specify a height for the div to show up. 
+This gives it a fixed height that doesn't scale proportionally (at least not without CSS media queries). When it gets narrow enough, 
+the sides start cropping (this might be preferable, it depends).
+
+Also, a quick check with caniuse.com shows this will fail conspicuously in IE8 (showing the image full size), 
+but thanks to Louis-Rémi Babé, there's a background-size polyfill workaround (though it does require a relative or fixed position, and a z-index). 
+IE8 also needs a polyfill for CSS media queries. There are a couple options.
+
+.bg-image {
+  /* image specified in separate class below */
+  height: 240px;
+  width: 100%; 
+}
+
+.bg-image-wedding {
+  background-image: url(img/photo-wedding_1200x800.jpg);
+
+  /* lt ie8 */
+  -ms-background-position-x: center;
+  -ms-background-position-y: bottom;
+  background-position: center bottom;
+
+  /* scale bg image proportionately */
+  background-size: cover;
+    
+  /* ie8 workaround - http://louisremi.github.io/background-size-polyfill/ */
+  -ms-behavior: url(/backgroundsize.min.htc);
+  /* prevent scaling past src width (or not) */
+  /* max-width: 1200px; */
+}
+
+/* example media queries */
+@media only screen and (min-width : 768px) {
+  .bg-image { height: 320px; }
+}
+
+@media only screen and (min-width : 1200px) {
+  .bg-image { height: 400px}
+}
+
+
+  Something to note, background-size: cover will readily upscale larger than the src image's native size (or not, if you set a max-width).*
+
+Still, there are some downsides to using a background-image. It's not as semantic or modular as an img, so it's less straightforward to maintain. 
+You're seemingly stuck with a fixed height or cumbersome CSS media queries. Also, users can't save the image as easily (sometimes preferable).
+
+
+

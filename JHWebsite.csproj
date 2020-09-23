@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DB58012F-45E0-4601-9AE0-FED1E03C6A8F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KPWebsite</RootNamespace>
+    <AssemblyName>KPWebsite</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="KallyJulesTestWebApp">
+      <HintPath>..\..\..\KallyJulesTestWebApp\KallyJulesTestWebApp\bin\KallyJulesTestWebApp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutMe.aspx" />
+    <Content Include="images\01.jpg" />
+    <Content Include="images\02.jpg" />
+    <Content Include="images\03.jpg" />
+    <Content Include="images\04.jpg" />
+    <Content Include="images\8-Brick-Wall-Textures.jpg" />
+    <Content Include="images\access.gif" />
+    <Content Include="images\access.JPG" />
+    <Content Include="images\access.PNG" />
+    <Content Include="images\access2.PNG" />
+    <Content Include="images\AccessHQ.jpg" />
+    <Content Include="images\blackboard.jpg" />
+    <Content Include="images\blackboard2.jpg" />
+    <Content Include="images\blackboard3.jpg" />
+    <Content Include="images\Computer-Technology-HD-Wallpaper.jpg" />
+    <Content Include="images\DMU.jpg" />
+    <Content Include="images\dmu.png" />
+    <Content Include="images\dmu2.png" />
+    <Content Include="images\DMUCopy.jpg" />
+    <Content Include="images\DMU_Welcome.jpg" />
+    <Content Include="images\email7.gif" />
+    <Content Include="images\LEICESTERSHIRE-POLICE-LOGO.png" />
+    <Content Include="images\LEICPOLICE.png" />
+    <Content Include="images\LeicPoliceHQ2.jpg" />
+    <Content Include="images\LeicPoliceHQ3.jpg" />
+    <Content Include="images\loughboroug2.JPG" />
+    <Content Include="images\loughborough.JPG" />
+    <Content Include="images\loughTech.jpg" />
+    <Content Include="images\LPHQ.jpg" />
+    <Content Include="images\next2.jpg" />
+    <Content Include="images\Norcat.jpg" />
+    <Content Include="images\Police-Logo.jpg" />
+    <Content Include="images\Police.jpg" />
+    <Content Include="images\POliceHQ.jpg" />
+    <Content Include="images\rsc.JPG" />
+    <Content Include="images\running3.gif" />
+    <Content Include="images\sprite.png" />
+    <Content Include="images\star.png" />
+    <Content Include="images\StirlingHQ.jpg" />
+    <Content Include="images\thankshumbs.gif" />
+    <Content Include="images\thankshumbs2.gif" />
+    <Content Include="images\thankshumbs2.jpg" />
+    <Content Include="images\thankshumbs3.jpg" />
+    <Content Include="images\thankshumbs5.jpg" />
+    <Content Include="images\thankyou.gif" />
+    <Content Include="Script\Graphkp.js" />
+    <Content Include="Script\Menukp.js" />
+    <Content Include="leaf.png" />
+    <Content Include="Mail\Confirmed.php" />
+    <Content Include="Mail\phpmail.php" />
+    <Content Include="Mail\testmailer.html" />
+    <Content Include="Menu\Education\DeMontUni.aspx" />
+    <Content Include="Menu\Education\LoughTech.aspx" />
+    <Content Include="Menu\Education\NorfolkTech.aspx" />
+    <Content Include="Menu\Miscelaneous\ContactNewForm.aspx" />
+    <Content Include="images\after.png" />
+    <Content Include="images\arrow.png" />
+    <Content Include="images\before.png" />
+    <Content Include="images\bg_out.png" />
+    <Content Include="images\contact-me.jpg" />
+    <Content Include="images\contactme.jpg" />
+    <Content Include="images\contactme3.jpg" />
+    <Content Include="images\glossyBack.png" />
+    <Content Include="images\glossyBack2.png" />
+    <Content Include="images\launch.gif" />
+    <Content Include="images\leicester_college.jpg" />
+    <Content Include="images\letter_bg.png" />
+    <Content Include="images\linkdin.png" />
+    <Content Include="images\littlepluses.png" />
+    <Content Include="images\pie.JPG" />
+    <Content Include="images\retinawood.png" />
+    <Content Include="images\running.gif" />
+    <Content Include="images\Sent-successfully.jpg" />
+    <Content Include="images\skills.JPG" />
+    <Content Include="images\Stirling.JPG" />
+    <Content Include="images\thankshumbs.jpg" />
+    <Content Include="images\whitetiles.png" />
+    <Content Include="Menu\Miscelaneous\Confirmation.aspx" />
+    <Content Include="Menu\Miscelaneous\Confirming.aspx" />
+    <Content Include="Menu\Miscelaneous\MailError.aspx" />
+    <Content Include="Menu\Miscelaneous\Test.aspx" />
+    <Content Include="Menu\Summary\VerticalMenu.aspx" />
+    <Content Include="dot.gif" />
+    <Content Include="Menu\WorkHistory\AccessFactMast.aspx" />
+    <Content Include="Menu\WorkHistory\LeicsPolice.aspx" />
+    <Content Include="Menu\WorkHistory\StirlingSolns.aspx" />
+    <Content Include="Script\Draggable.js" />
+    <Content Include="Script\RightClickDisable.js" />
+    <Content Include="Script\snow.js" />
+    <Content Include="Script\switchcolors.js" />
+    <Content Include="Script\cssverticalmenu.js" />
+    <Content Include="Script\Graph.js" />
+    <Content Include="images\dot.gif" />
+    <Content Include="index.aspx" />
+    <Content Include="images\curr.jpg" />
+    <Content Include="images\next.jpg" />
+    <Content Include="images\NextHeadOffice.jpg" />
+    <Content Include="images\The_College_of_West_Anglia_Logo.jpg" />
+    <Content Include="Menu\WorkHistory\NextPlc.aspx" />
+    <Content Include="Script\Google.js" />
+    <Content Include="Script\jschart.js" />
+    <Content Include="Script\Menu.js" />
+    <Content Include="Styles\Contact.css" />
+    <Content Include="snow.gif" />
+    <Content Include="star.png" />
+    <Content Include="star1.png" />
+    <Content Include="Styles\AboutMe.css" />
+    <Content Include="Styles\Draggable.css" />
+    <Content Include="Styles\Test.css" />
+    <Content Include="Styles\Work.css" />
+    <Content Include="Styles\cssverticalmenu.css" />
+    <Content Include="Styles\GraphImageStyle.css" />
+    <Content Include="Styles\Curriculum.css" />
+    <Content Include="Styles\Main.css" />
+    <Content Include="TempImages\temp.txt" />
+    <Content Include="Test.aspx" />
+    <Content Include="TextFile1.txt" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutMe.aspx.cs">
+      <DependentUpon>AboutMe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutMe.aspx.designer.cs">
+      <DependentUpon>AboutMe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Education\DeMontUni.aspx.cs">
+      <DependentUpon>DeMontUni.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu\Education\DeMontUni.aspx.designer.cs">
+      <DependentUpon>DeMontUni.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Education\LoughTech.aspx.cs">
+      <DependentUpon>LoughTech.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu\Education\LoughTech.aspx.designer.cs">
+      <DependentUpon>LoughTech.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Education\NorfolkTech.aspx.cs">
+      <DependentUpon>NorfolkTech.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu\Education\NorfolkTech.aspx.designer.cs">
+      <DependentUpon>NorfolkTech.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Miscelaneous\ContactNewForm.aspx.cs">
+      <DependentUpon>ContactNewForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu\Miscelaneous\ContactNewForm.aspx.designer.cs">
+      <DependentUpon>ContactNewForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Miscelaneous\Confirmation.aspx.cs">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu\Miscelaneous\Confirmation.aspx.designer.cs">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Miscelaneous\Confirming.aspx.cs">
+      <DependentUpon>Confirming.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu\Miscelaneous\Confirming.aspx.designer.cs">
+      <DependentUpon>Confirming.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Miscelaneous\MailError.aspx.cs">
+      <DependentUpon>MailError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu\Miscelaneous\MailError.aspx.designer.cs">
+      <DependentUpon>MailError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Miscelaneous\Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu\Miscelaneous\Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Summary\VerticalMenu.aspx.cs">
+      <DependentUpon>VerticalMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu\Summary\VerticalMenu.aspx.designer.cs">
+      <DependentUpon>VerticalMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\WorkHistory\AccessFactMast.aspx.cs">
+      <DependentUpon>AccessFactMast.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu\WorkHistory\AccessFactMast.aspx.designer.cs">
+      <DependentUpon>AccessFactMast.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\WorkHistory\LeicsPolice.aspx.cs">
+      <DependentUpon>LeicsPolice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu\WorkHistory\LeicsPolice.aspx.designer.cs">
+      <DependentUpon>LeicsPolice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\WorkHistory\NextPlc.aspx.cs">
+      <DependentUpon>NextPlc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu\WorkHistory\NextPlc.aspx.designer.cs">
+      <DependentUpon>NextPlc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\WorkHistory\StirlingSolns.aspx.cs">
+      <DependentUpon>StirlingSolns.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu\WorkHistory\StirlingSolns.aspx.designer.cs">
+      <DependentUpon>StirlingSolns.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cv\KALAS CV.pdf" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49584</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
